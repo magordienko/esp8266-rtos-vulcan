@@ -19,6 +19,7 @@ void chipInfo()
   		(chip_info.features & CHIP_FEATURE_EMB_FLASH) ? "embedded" : "external");
 }
 
+/* The entry point of the program */
 void app_main()
 {
   chipInfo();
