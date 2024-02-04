@@ -19,6 +19,12 @@ void chipInfo()
   		(chip_info.features & CHIP_FEATURE_EMB_FLASH) ? "embedded" : "external");
 }
 
+/* Setting the behavior of the LED */
+void ledBehaviour()
+{
+
+}
+
 /* The entry point of the program */
 void app_main()
 {
